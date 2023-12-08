@@ -20,4 +20,5 @@ visualization: {
   id: "asdasd_id"
   file: "employeeStatusChart.js"
   label: "asdasd_label"
+  dependencies: ["https://d3js.org/d3.v4.min.js"]
 }
