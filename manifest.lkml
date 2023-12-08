@@ -18,7 +18,8 @@ constant: VIS_ID {
 
 visualization: {
   id: "asdasd_id"
-  file: "visualizations/employeeStatusChart.js"
+  # file: "visualizations/employeeStatusChart.js"
+  url: "https://raw.githubusercontent.com/darrenchew123/customD3_Looker/main/customViz/employeeStatusChart.js"
   label: "asdasd_label"
   dependencies: ["https://code.jquery.com/jquery-2.2.4.min.js","https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js","https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.js"]
 }
