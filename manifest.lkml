@@ -17,7 +17,7 @@ constant: VIS_ID {
 }
 
 visualization: {
-  id: "@{VIS_ID}"
+  id: "@{VIS_ID.value}"
   file: "employeeStatusChart.js"
-  label: "@{VIS_LABEL}"
+  label: "@{VIS_LABEL.value}"
 }
